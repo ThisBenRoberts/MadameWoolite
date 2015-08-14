@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://wordpress.org/plugins/automatic-featured-image-posts/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head profile="http://gmpg.org/xfn/11"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<!--
+<meta property="fb:page_id" content="6427302910" />
+-->
+<meta name="google-site-verification" content="7VWES_-rcHBcmaQis9mSYamPfNwE03f4vyTj4pfuAw0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WordPress › Automatic Featured Image Posts « WordPress Plugins</title>
+<meta name="referrer" content="always">
+<link href="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/dashicons.css" rel="stylesheet" type="text/css">
+<link href="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://s.w.org/style/wp4.css?24">
+<link media="only screen and (max-device-width: 480px)" href="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/iphone.css" type="text/css" rel="stylesheet">
+<link rel="shortcut icon" href="https://s.w.org/favicon.ico?2" type="image/x-icon">
+
+<script src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/cb=gapi.loaded_1" async=""></script><script src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/cb=gapi.loaded_0" async=""></script><script src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/quant.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/ga.js"></script><script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-52447-1']);
+_gaq.push(['_setDomainName', 'wordpress.org']);
+_gaq.push(['_trackPageview']);
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+function recordOutboundLink(link, category, action) {
+	_gaq.push(['_trackEvent', category, action])
+	setTimeout('document.location = "' + link.href + '"', 100);
+}
+</script>
+<!--[if lte IE 8]>
+<style type="text/css">
+@import url("//s.w.org/style/ie.css?1");
+</style>
+<![endif]-->
+<meta name="generator" content="bbPress 1.1">
+<script type="text/javascript" src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/jquery.js"></script>
+<link rel="stylesheet" id="forum-wp4-css" href="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/forum-wp4.css" type="text/css" media="">
+<link rel="stylesheet" id="style-wp4-css" href="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/style-wp4.css" type="text/css" media="">
+<!--[if IE 7]>
+<link rel='stylesheet' id='forum-ie7-css'  href='//s.w.org/style/forum-ie7.css?ver=7' type='text/css' media='' />
+<![endif]-->
+	<style type="text/css">
+	div.plugin-notice {
+		border: 1px solid;
+		padding: 4px 12px;
+		margin-bottom: 20px;
+		border-radius: 6px;
+		overflow: auto;
+	}
+	div.plugin-notice-approved {
+		background-color: #DFF2BF;
+		color: #4F8A10;
+	}
+	div.plugin-notice-closed, div.plugin-notice-disabled, div.plugin-notice-rejected {
+		background-color: #FFBABA;
+		color: #D8000C;
+	}
+	div.plugin-notice-open-old {
+		background-color: #FEEFB3;
+		color: #744500;
+	}
+	div.plugin-notice-requested {
+		background-color: #BDE5F8;
+		color: #00529B;
+	}
+	div.plugin-notice span:first-child {
+		padding: 1px 10px 3px;
+		border-radius: 25px;
+		color: white;
+		font-size: 18px;
+		font-weight: bold;
+		font-family: Verdana;
+		float: left;
+		margin: 0 8px 0 0;
+	}
+	div.plugin-notice-approved span:first-child {
+		background-color: #4F8A10;
+	}
+	div.plugin-notice-closed span:first-child, div.plugin-notice-disabled span:first-child, div.plugin-notice-rejected span:first-child {
+		background-color: #D8000C;
+	}
+	div.plugin-notice-open-old span:first-child {
+		background-color: #744500;
+	}
+	div.plugin-notice-requested span:first-child {
+		background-color: #00529B;
+	}
+	span.plugin-notice-banner-msg {
+		float: left;
+		width: 95%;
+		line-height: 1.3em;
+		padding-top: 5px;
+	}
+
+	div.plugin-notice-open-old {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	div.plugin-notice-open-old span.plugin-notice-banner-msg {
+		padding-top: 0;
+	}
+	</style>
+	<meta property="og:title" content="Automatic Featured Image Posts">
+<meta property="og:description" content="Automatic Featured Image Posts creates a new post with a Featured Image every time an image is uploaded.">
+<meta property="og:site_name" content="WordPress.org">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://ps.w.org/automatic-featured-image-posts/assets/banner-772x250.png?rev=481718">
+<link rel="stylesheet" href="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/bb-ratings.css" type="text/css">
+	<style type="text/css">
+	#pagebody .support-sidebox p {
+		margin: 0 0 8px 0;
+	}
+	.plugin-submit-support {
+		text-align: center;
+	}
+	.plugin-submit-support a {
+		display: block;
+		margin: 4px auto 2px;
+		padding: 3px 6px;
+		border-radius: 6px;
+		border: 1px solid #000;
+		background-color: #439e47;
+		width: 60%;
+		color: #fff;
+	}
+	.plugin-submit-support a:hover {
+		background-color: #218834;
+	}
+	div.support-sidebox {
+		margin: 6px 0;
+		padding-bottom: 12px;
+	}
+	div.support-sidebox h3.head {
+		padding-left: 0;
+		margin-bottom: 6px;
+	}
+	a.plugin-support-link {
+		display: block;
+		text-align: center;
+	}
+	</style>
+	
+<style type="text/css">
+#compatibility {
+	margin: 0 0 1em;
+	padding: 0 0 12px;
+}
+#compatibility h3 {
+	margin: 0 0 6px;
+	padding-left:0;
+}
+#compatibility h4 {
+	margin: 0 12px 8px;
+	padding: 0;
+	border: none;
+	text-align: center;
+}
+#compatibility .form-table {
+	margin: 0;
+}
+#compatibility .form-table tr {
+	background-color: transparent;
+}
+#compatibility .form-table th {
+	padding: 0 10px 4px;
+	width: auto;
+	border: none;
+	font-weight: normal;
+}
+#compatibility .form-table td {
+	padding: 0 10px 4px;
+	width: 100%;
+	border: none;
+}
+#compatibility .form-table td.sign {
+	width: auto;
+}
+#compatibility .form-table select {
+	width: 100%;
+}
+#compatibility label {
+	font-weight:normal;
+}
+#compatibility p {
+	margin: 0;
+	padding: 0 12px 4px;
+	font-size:11px;
+	line-height:1.4em;
+	text-align:right;
+}
+#compatibility button.works {
+	float: right;
+}
+#compatibility button.broken {
+	float: left;
+}
+#compatibility button.active {
+	font-weight: bold;
+}
+#compatibility button.active:before {
+	content: "\25CF";
+	font-size: 1.6em;
+	line-height: .625;
+	vertical-align: -2px;
+	padding-right: .2em;
+}
+#compatibility button.works:before {
+	color: #0c0;
+}
+#compatibility button.broken:before {
+	color: #c00;
+}
+.compatibility-bar {
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	margin-top:4px;
+}
+#compatibility-bar-works {
+	background-color: #6f6;
+}
+#compatibility-bar-broken {
+	background-color: #f33;
+	color: #fff;
+}
+#compatibility-bar-data {
+	background-color: #ff6;
+}
+#compatibility-table {
+	display: none;
+}
+p#compatibility-login-link {
+	text-align:center;
+}
+</style>
+<!--[if IE]>
+<style type="text/css">
+#compatibility button.active:before {
+	vertical-align: -1px;
+}
+</style>
+<![endif]-->
+<script type="text/javascript">
+jQuery( function($) {
+	var cbs = $('.compatibility-bar'),
+	    worksBar = $('#compatibility-bar-works'),
+	    brokeBar = $('#compatibility-bar-broken'),
+	    dataBar = $('#compatibility-bar-data'),
+	    buttons = $('#compatibility button'),
+	    wpv = $('#compatibility-version'),
+	    tv = $('#compatibility-topic-version'),
+	    works,
+	    cell,
+	    ratio,
+	    worksText = $('#compatibility-works'),
+	    brokeText = $('#compatibility-broken'),
+	    worksTextN = [ '1 person says it works.', '%d people say it works.' ],
+	    brokeTextN = [ '1 person says it\'s broken.', '%d people say it\'s broken.' ];
+
+	$('.compatibility select').change( function() {
+		cell = $( '#compatibility-version-' + wpv.val().replace( /[.]/g, '_' ) ).find( '.compatibility-topic-version-' + tv.val().replace( /[.]/g, '_' ) );
+		works = $.map( cell.text().split( ',' ), function(a) { return parseInt( a ); } );
+		buttons.removeClass( 'active' );
+		cbs.hide();
+		if ( wpv.val() == null || tv.val() == null || isNaN( works[0] ) ) {
+			dataBar.show();
+			worksText.text( worksTextN[1].replace( '%d', 0 ) );
+			brokeText.text( brokeTextN[1].replace( '%d', 0 ) );
+		} else {
+			if ( 4 > works[1] ) {
+				dataBar.show();
+			} else {
+				ratio = works[2] / works[1];
+				if ( 0.7 <= ratio ) {
+					worksBar.show();
+				} else if ( 0.3 >= ratio ) {
+					brokeBar.show();
+				} else {
+					dataBar.show();
+				}
+			}
+
+			worksText.text( worksTextN[ 1 == works[2] ? 0 : 1 ].replace( '%d', works[2].toString() ) );
+			brokeText.text( brokeTextN[ 1 == works[1] - works[2] ? 0 : 1 ].replace( '%d', ( works[1] - works[2] ).toString() ) );
+
+			if ( cell.hasClass( 'user-works' ) ) {
+				buttons.filter( '.works' ).addClass( 'active' );
+			} else if ( cell.hasClass( 'user-broken' ) ) {
+				buttons.filter( '.broken' ).addClass( 'active' );
+			}
+		}
+	} ).filter( ':first' ).change();
+} );
+</script>
+	<style type="text/css">
+	div.plugin-contributor {
+		overflow: auto;
+		margin: 2px 0;
+	}
+	div.plugin-contributor-info.no-profile {
+		line-height: 36px;
+	}
+	.plugin-contributor-gravatar img {
+		vertical-align: bottom;
+		margin-right: 8px;
+		margin-top: 4px;
+		border-radius: 3px;
+	}
+	div.plugin-contributor-profile {
+		float:left;
+	}
+	.plugin-contributor-gravatar {
+		float:left;
+	}
+	.plugin-contributor-info {
+		margin: 6px 0 0;
+		line-height: 15px;
+	}
+	.plugin-contributor-links {
+		margin-top: 2px;
+		font-size: 11px;
+	}
+	div.extra-plugin-authors, div.plugin-donate {
+		clear:both;
+		text-align:center;
+		margin-top: 3px;
+	}
+	div.sidebox {
+		margin: 6px 0;
+		padding-bottom: 12px;
+	}
+	div.sidebox h3.head {
+		padding-left:0;
+		margin-bottom: 6px;
+	}
+	.hide-if-no-js {
+		display:none;
+	}
+	</style>
+	<script>
+	(function($){
+		$(document).ready( function() {
+			$('.hide-if-js').hide();
+			$('.hide-if-no-js').show();
+			$('.extra-plugin-authors a').click( function() {
+				$('.plugin-contributor.hide-if-js').toggle();
+				$('.extra-plugin-authors a').toggle();
+				return false;
+			});
+		});
+	})(jQuery);
+	</script>
+	<link rel="alternate" type="application/rss+xml" title="WordPress Plugins » Topic: Automatic Featured Image Posts" href="https://wordpress.org/plugins/rss/topic/automatic-featured-image-posts"><script>document.cookie='devicePixelRatio='+((window.devicePixelRatio === undefined) ? 1 : window.devicePixelRatio)+'; path=/';</script>
+<script type="text/javascript">
+var toggleMenu = function(){
+    var m = document.getElementById('wporg-header-menu'),
+        c = m.className;
+	    m.className = c.match( ' active' ) ? c.replace( ' active', '' ) : c + ' active';
+}
+</script>
+</head>
+
+<body id="wordpress-org" class="plugins-directory topic-page">
+<div id="wporg-header">
+	<div class="wrapper">
+	<a id="mobile-menu-button" class="" href="https://wordpress.org/plugins/automatic-featured-image-posts/#" onclick="toggleMenu();"></a>
+	<h1><a href="https://wordpress.org/">WordPress.org</a></h1>				<div id="head-search">
+		<form action="https://wordpress.org/search/do-search.php" method="get">
+			<input class="text" name="search" type="text" value="" maxlength="150" placeholder="Search WordPress.org"> <input type="submit" class="button" value="">
+		</form>
+		</div>
+				<div style="clear:both"></div>
+		
+<ul id="wporg-header-menu">
+<li><a href="https://wordpress.org/showcase/" title="See some of the sites built on WordPress.">Showcase</a></li>
+<li><a href="https://wordpress.org/themes/" title="Find just the right look for your website.">Themes</a></li>
+<li><a href="https://wordpress.org/plugins/" title="Plugins can extend WordPress to do almost anything you can imagine." class="current">Plugins</a><div class="uparrow"></div></li>
+<li><a href="https://wordpress.org/mobile/" title="Take your website on the go!">Mobile</a></li>
+<li><a href="https://wordpress.org/support/" title="Forums, documentation, help.">Support</a><ul class="nav-submenu"><li><a href="https://wordpress.org/support/" title="Support and discussion forums.">Forums</a></li><li><a href="https://codex.wordpress.org/Main_Page" title="Documentation, tutorials, best practices.">Documentation</a></li></ul><div class="uparrow"></div></li>
+<li><a href="https://make.wordpress.org/" title="Contribute your knowledge.">Get Involved</a></li>
+<li><a href="https://wordpress.org/about/" title="About the WordPress Organization, and where we&#39;re going.">About</a></li>
+<li><a href="https://wordpress.org/news/" title="Come here for the latest scoop.">Blog</a></li>
+<li><a href="https://wordpress.org/hosting/" title="Find a home for your blog.">Hosting</a></li>
+<li id="download" class="button download-button"><a href="https://wordpress.org/download/" title="Get it. Got it? Good.">Download WordPress</a></li>
+</ul>
+		<div style="clear:both"></div>
+	</div>
+</div>
+
+
+
+<div id="headline">
+	<div class="wrapper">
+		<h2><a href="https://wordpress.org/plugins/">Plugin Directory</a></h2>
+		<form class="login" method="post" action="https://wordpress.org/support/bb-login.php">
+<p><label>Username		<input class="text" name="user_login" type="text" id="user_login" size="13" maxlength="40" value="">
+  </label>
+	<label>Password		<input class="text" name="password" type="password" id="password" size="13" maxlength="100">
+	</label>
+	<input name="re" type="hidden" value="">
+	<input type="submit" class="button-secondary" name="Submit" id="submit" value="Log in">
+	(<a href="https://wordpress.org/support/bb-login.php">forgot?</a>) or <a href="https://wordpress.org/support/register.php">Register</a></p>
+</form>
+	</div>
+</div>
+
+
+<div id="pagebody">
+
+	
+	<div class="wrapper">
+
+					<div class="col-2" id="sidebar">
+							
+			<div class="view" style="margin-top: 20px;"><a href="https://wordpress.org/plugins/about/">Developer Center</a>
+
+						</div>
+
+	<h4>Search Plugins</h4>
+
+	<form style="overflow:hidden;" id="side-search" method="get" action="https://wordpress.org/plugins/search.php">
+		<div>
+			<input type="text" class="text" name="q" value="">
+			<input type="submit" class="button" value="Search"><br class="clear">
+		</div>
+	</form>
+
+<h4 class="plugin-tags">Popular Tags</h4>
+<ul class="submenu">
+			<li>
+			<a href="https://wordpress.org/plugins/tags/widget">
+				widget				(5,159)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/post">
+				Post				(3,241)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/plugin">
+				plugin				(3,155)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/admin">
+				admin				(2,699)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/posts">
+				posts				(2,482)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/sidebar">
+				sidebar				(1,984)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/shortcode">
+				shortcode				(1,856)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/google">
+				google				(1,817)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/twitter">
+				twitter				(1,763)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/images">
+				images				(1,752)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/page">
+				page				(1,716)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/comments">
+				comments				(1,708)
+			</a>
+		</li>
+			<li>
+			<a href="https://wordpress.org/plugins/tags/image">
+				image				(1,599)
+			</a>
+		</li>
+		<li>
+		<a class="more" href="https://wordpress.org/plugins/tags/">More »</a>
+	</li>
+</ul>
+			</div>
+		
+		<div class="col-10" itemscope="" itemtype="http://schema.org/SoftwareApplication">
+
+
+<div>
+
+<div id="plugin-title" class="with-banner">
+			<div class="vignette"></div>
+		<style type="text/css">
+		#plugin-title {
+			width:772px;
+			height:250px;
+			background-image: url(//ps.w.org/automatic-featured-image-posts/assets/banner-772x250.png?rev=481718);
+			background-size:772px 250px;
+		}
+		</style>
+
+	<h2 itemprop="name">Automatic Featured Image Posts</h2>
+</div>
+
+<div id="plugin-description">
+	<p itemprop="description" class="shortdesc">
+		Automatic Featured Image Posts creates a new post with a Featured Image every time an image is uploaded.	</p>
+	<div class="description-right">
+				<p class="button">
+			<a itemprop="downloadUrl" href="https://downloads.wordpress.org/plugin/automatic-featured-image-posts.1.0.zip">Download Version 1.0</a>		</p>
+<meta itemprop="softwareVersion" content="1.0">
+<meta itemprop="fileFormat" content="application/zip">
+
+					</div>
+</div>
+
+<div class="col-7">
+
+<div id="plugin-info" class="block description">
+
+	<div class="head head-big">
+			
+		<ul id="sections">
+
+	
+			<li class="section-description current">
+				<a itemprop="url" href="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/WordPress › Automatic Featured Image Posts « WordPress Plugins.html">Description</a>
+			</li>
+
+	
+			<li class="section-installation">
+				<a href="https://wordpress.org/plugins/automatic-featured-image-posts/installation/">Installation</a>
+			</li>
+
+	
+			<li class="section-faq">
+				<a href="https://wordpress.org/plugins/automatic-featured-image-posts/faq/">FAQ</a>
+			</li>
+
+	
+			<li class="section-screenshots">
+				<a href="https://wordpress.org/plugins/automatic-featured-image-posts/screenshots/">Screenshots</a>
+			</li>
+
+	
+			<li class="section-changelog">
+				<a itemprop="releaseNotes" href="https://wordpress.org/plugins/automatic-featured-image-posts/changelog/">Changelog</a>
+			</li>
+
+	
+			<li class="section-stats">
+				<a href="https://wordpress.org/plugins/automatic-featured-image-posts/stats/">Stats</a>
+			</li>
+
+	
+			<li class="section-support">
+				<a href="http://wordpress.org/support/plugin/automatic-featured-image-posts">Support</a>
+			</li>
+
+	
+			<li class="section-reviews">
+				<a href="http://wordpress.org/support/view/plugin-reviews/automatic-featured-image-posts">Reviews</a>
+			</li>
+
+	
+			<li class="section-developers">
+				<a href="https://wordpress.org/plugins/automatic-featured-image-posts/developers/">Developers</a>
+			</li>
+
+	
+		</ul>
+
+			</div>
+
+	<div class="block-content"><p>Automatic Featured Image Posts creates a new post with a Featured Image every time an image is uploaded. Through the plugin settings page, you can set the image to publish and assign itself to one of your other existing custom post types and/or post formats.</p>
+
+<p>The imagined use case is to make managing a large number of photos through WordPress a little more interesting and a little more fun.</p>
+
+<p>After uploading 10, 100, or 1000 pictures from an event or vacation, you and other users can go through and spend the majority of your time adding content, tags, and titles to your photographs rather than going through a monotonous process creating new posts over and over again.</p>
+
+<p>Settings are available for:</p>
+
+<ul>
+<li>Default Post Status (draft, pending, published, private)</li>
+<li>Default Post Type
+
+<ul>
+<li>Default is the WordPress post.</li>
+<li>Can choose any custom post type registered in your WordPress installation.</li>
+</ul></li>
+<li>Default Post Format
+
+<ul>
+<li>Default is 'standard', which equates to none.</li>
+<li>Other options are provided if registered by your theme</li>
+</ul></li>
+</ul>
+
+<p>Filters are available for:</p>
+
+<ul>
+<li><code>afip_new_post_title</code> = Allow other functions or themes to change the post title before creation.</li>
+<li><code>afip_new_post_category</code> = Allow other functions or themes to change the post categories before creation.</li>
+<li><code>afip_new_post_content</code> = Allow other functions or themes to change the post content before creation.</li>
+<li><code>afip_new_post_date</code> = Allow other functions or themes to change the post date before creation.</li>
+<li><code>afip_post_parent_continue</code> = Allow creation of a new post when an image is inserted in an existing post.</li>
+<li><code>afip_continue_new_post</code> = Allow other functions or themes to skip creation of a post.</li>
+</ul>
+
+<p>Actions are available for:</p>
+
+<ul>
+<li><code>afip_pre_create_post</code> = Runs immediately before each post is created for an image.</li>
+<li><code>afip_created_post</code> = Runs after each image load is processed.</li>
+</ul>
+
+<p>Feel free to <a href="https://github.com/jeremyfelt/Automatic-Featured-Image-Posts" rel="nofollow">fork, submit issues, and/or contribute on GitHub</a></p>	<div id="plugin-tags">
+		<strong>Tags:</strong> <a href="https://wordpress.org/plugins/tags/automatic" rel="tag">automatic</a>, <a href="https://wordpress.org/plugins/tags/custom-post-type" rel="tag">custom post type</a>, <a href="https://wordpress.org/plugins/tags/featured-image" rel="tag">featured image</a>, <a href="https://wordpress.org/plugins/tags/media" rel="tag">media</a>, <a href="https://wordpress.org/plugins/tags/photo" rel="tag">photo</a>, <a href="https://wordpress.org/plugins/tags/photoblog" rel="tag">photoblog</a>, <a href="https://wordpress.org/plugins/tags/pictures" rel="tag">pictures</a>, <a href="https://wordpress.org/plugins/tags/post-formats" rel="tag">post formats</a>, <a href="https://wordpress.org/plugins/tags/post-thumbnails" rel="tag">post thumbnails</a>, <a href="https://wordpress.org/plugins/tags/posts" rel="tag">posts</a>, <a href="https://wordpress.org/plugins/tags/thumbnail" rel="tag">thumbnail</a>, <a href="https://wordpress.org/plugins/tags/upload" rel="tag">upload</a>	</div>
+	</div><!-- block-content--></div>
+
+<div id="ajax-response"></div>
+
+</div>
+
+
+<div class="col-3">
+
+	
+<p>
+			<strong>Requires:</strong> 3.2.1 or higher<br>
+	
+			<strong>Compatible up to:</strong> 3.7.8<br>
+	
+	<strong>Last Updated: </strong> <meta itemprop="dateModified" content="2013-11-2">2013-11-2<br>
+
+			<strong>Active Installs:</strong>
+		<meta itemprop="interactionCount" content="UserDownloads:43506">
+		5,000+<br>
+	
+	</p>
+
+
+	<link itemprop="applicationCategory" href="http://schema.org/OtherApplication">
+	<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+		<meta itemprop="price" content="0.00">
+		<meta itemprop="priceCurrency" content="USD">
+		<span itemprop="seller" itemscope="" itemtype="http://schema.org/Organization">
+			<span itemprop="name" content="WordPress.org"></span>
+		</span>
+	</span>
+	<meta itemprop="fileformat" content="application/zip">
+	<div class="left" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+		<meta itemprop="ratingValue" content="4.7">
+		<meta itemprop="ratingCount" content="9">
+		<h4>Ratings</h4>
+<div class="wporg-ratings" title="4.7 out of 5 stars" style="color:#e6b800;"><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-filled"></span><span class="dashicons dashicons-star-half"></span></div><span>4.7 out of 5 stars</span>
+		<div class="counter-container">
+		<a href="https://wordpress.org/support/view/plugin-reviews/automatic-featured-image-posts?filter=5" title="Click to see reviews that provided a rating of 5 stars">
+			<span class="counter-label" style="float:left; margin-right:5px;">5 stars</span>
+			<span class="counter-back" style="height:17px;width:92px;background-color:#ececec;float:left;">
+				<span class="counter-bar" style="width: 81.777777777778px;height:17px;background-color:#fddb5a;float:left;">
+				</span>
+			</span>
+		</a>
+		<span class="counter-count" style="margin-left:5px;">8</span>
+		</div>
+		<div class="counter-container">
+		<a href="https://wordpress.org/support/view/plugin-reviews/automatic-featured-image-posts?filter=4" title="Click to see reviews that provided a rating of 4 stars">
+			<span class="counter-label" style="float:left; margin-right:5px;">4 stars</span>
+			<span class="counter-back" style="height:17px;width:92px;background-color:#ececec;float:left;">
+				<span class="counter-bar" style="width: 0px;height:17px;background-color:#fddb5a;float:left;">
+				</span>
+			</span>
+		</a>
+		<span class="counter-count" style="margin-left:5px;">0</span>
+		</div>
+		<div class="counter-container">
+		<a href="https://wordpress.org/support/view/plugin-reviews/automatic-featured-image-posts?filter=3" title="Click to see reviews that provided a rating of 3 stars">
+			<span class="counter-label" style="float:left; margin-right:5px;">3 stars</span>
+			<span class="counter-back" style="height:17px;width:92px;background-color:#ececec;float:left;">
+				<span class="counter-bar" style="width: 0px;height:17px;background-color:#fddb5a;float:left;">
+				</span>
+			</span>
+		</a>
+		<span class="counter-count" style="margin-left:5px;">0</span>
+		</div>
+		<div class="counter-container">
+		<a href="https://wordpress.org/support/view/plugin-reviews/automatic-featured-image-posts?filter=2" title="Click to see reviews that provided a rating of 2 stars">
+			<span class="counter-label" style="float:left; margin-right:5px;">2 stars</span>
+			<span class="counter-back" style="height:17px;width:92px;background-color:#ececec;float:left;">
+				<span class="counter-bar" style="width: 10.222222222222px;height:17px;background-color:#fddb5a;float:left;">
+				</span>
+			</span>
+		</a>
+		<span class="counter-count" style="margin-left:5px;">1</span>
+		</div>
+		<div class="counter-container">
+		<a href="https://wordpress.org/support/view/plugin-reviews/automatic-featured-image-posts?filter=1" title="Click to see reviews that provided a rating of 1 star">
+			<span class="counter-label" style="float:left; margin-right:5px;">1 stars</span>
+			<span class="counter-back" style="height:17px;width:92px;background-color:#ececec;float:left;">
+				<span class="counter-bar" style="width: 0px;height:17px;background-color:#fddb5a;float:left;">
+				</span>
+			</span>
+		</a>
+		<span class="counter-count" style="margin-left:5px;">0</span>
+		</div>
+	</div>
+	<br class="clear">
+
+		<div id="related">
+					</div>
+
+
+	<div class="sidebox block">
+		<a name="plugin-contributors"></a>
+		<h3 class="head">Author</h3>
+		<div>
+			<div class="plugin-authors">
+				<div class="plugin-contributor">
+						<a class="plugin-contributor-gravatar" rel="author" href="https://profiles.wordpress.org/jeremyfelt/"><img alt="" src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/d1759b1c669981b7c52ec9a97d19e6bd" class="photo avatar avatar-72" style="height:36px;width:36px;"></a>
+						<div class="plugin-contributor-info">
+						        <div><a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a></div>
+						        <div class="plugin-contributor-links">8 plugins
+						</div></div>
+						</div>			</div>
+						<div class="plugin-donate"><a href="http://jeremyfelt.com/wordpress/plugins/automatic-featured-image-posts/">Donate to this plugin  »</a></div>		</div>
+	</div>
+	
+
+
+
+	<div class="support-sidebox block">
+		<h3 class="head">Support</h3>
+		<div>
+				<p>Got something to say? Need help?</p>
+			<div class="plugin-submit-support"><a href="https://wordpress.org/support/plugin/automatic-featured-image-posts">View support forum</a></div>
+		</div>
+	</div>
+
+	
+
+	<div id="compatibility" class="block">
+		<h3 class="head">Compatibility</h3>
+<form class="compatibility" action="" method="post">
+	<table class="form-table">
+		<tbody><tr>
+			<td class="sign"></td>
+			<th scope="row"><label for="compatibility-version">WordPress</label></th>
+			<td>
+				<select id="compatibility-version" name="compatibility[version]">
+
+					<option value="4.2.2" selected="selected">4.2.2</option>
+
+					<option value="4.2.1">4.2.1</option>
+
+					<option value="4.2">4.2</option>
+
+					<option value="4.1.5">4.1.5</option>
+
+					<option value="4.1.4">4.1.4</option>
+
+					<option value="4.1.3">4.1.3</option>
+
+					<option value="4.1.2">4.1.2</option>
+
+					<option value="4.1.1">4.1.1</option>
+
+					<option value="4.1">4.1</option>
+
+					<option value="4.0.5">4.0.5</option>
+
+					<option value="4.0.4">4.0.4</option>
+
+					<option value="4.0.3">4.0.3</option>
+
+					<option value="4.0.2">4.0.2</option>
+
+					<option value="4.0.1">4.0.1</option>
+
+					<option value="4.0">4.0</option>
+
+					<option value="3.9.6">3.9.6</option>
+
+					<option value="3.9.5">3.9.5</option>
+
+					<option value="3.9.4">3.9.4</option>
+
+					<option value="3.9.3">3.9.3</option>
+
+					<option value="3.9.2">3.9.2</option>
+
+					<option value="3.9.1">3.9.1</option>
+
+					<option value="3.9">3.9</option>
+
+					<option value="3.8.8">3.8.8</option>
+
+					<option value="3.8.7">3.8.7</option>
+
+					<option value="3.8.6">3.8.6</option>
+
+					<option value="3.8.5">3.8.5</option>
+
+					<option value="3.8.4">3.8.4</option>
+
+					<option value="3.8.3">3.8.3</option>
+
+					<option value="3.8.2">3.8.2</option>
+
+					<option value="3.8.1">3.8.1</option>
+
+					<option value="3.8">3.8</option>
+
+					<option value="3.7.8">3.7.8</option>
+
+					<option value="3.7.7">3.7.7</option>
+
+					<option value="3.7.6">3.7.6</option>
+
+					<option value="3.7.5">3.7.5</option>
+
+					<option value="3.7.4">3.7.4</option>
+
+					<option value="3.7.3">3.7.3</option>
+
+					<option value="3.7.2">3.7.2</option>
+
+					<option value="3.7.1">3.7.1</option>
+
+					<option value="3.7">3.7</option>
+
+					<option value="3.6.1">3.6.1</option>
+
+					<option value="3.6">3.6</option>
+
+					<option value="3.5.2">3.5.2</option>
+
+					<option value="3.5.1">3.5.1</option>
+
+					<option value="3.5">3.5</option>
+
+					<option value="3.4.2">3.4.2</option>
+
+					<option value="3.4.1">3.4.1</option>
+
+					<option value="3.4">3.4</option>
+
+					<option value="3.3.2">3.3.2</option>
+
+					<option value="3.3.1">3.3.1</option>
+
+					<option value="3.3">3.3</option>
+
+					<option value="3.2.1">3.2.1</option>
+
+					<option value="3.2">3.2</option>
+
+					<option value="3.1.4">3.1.4</option>
+
+					<option value="3.1.3">3.1.3</option>
+
+					<option value="3.1.2">3.1.2</option>
+
+					<option value="3.1.1">3.1.1</option>
+
+					<option value="3.1">3.1</option>
+
+					<option value="3.0.5">3.0.5</option>
+
+					<option value="3.0.4">3.0.4</option>
+
+					<option value="3.0.3">3.0.3</option>
+
+					<option value="3.0.2">3.0.2</option>
+
+					<option value="3.0.1">3.0.1</option>
+
+					<option value="3.0">3.0</option>
+
+					<option value="2.9.2">2.9.2</option>
+
+					<option value="2.9.1">2.9.1</option>
+
+					<option value="2.9">2.9</option>
+
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="sign">+</td>
+			<th scope="row"><label for="compatibility-topic-version">Plugin</label></th>
+			<td>
+				<select id="compatibility-topic-version" name="compatibility[topic_version]">
+					<optgroup label="Current Version">
+						<option value="1.0" selected="selected">1.0</option>
+
+					</optgroup>
+					<optgroup label="Other Versions">
+						<option value="0.9">0.9</option>
+						<option value="0.8">0.8</option>
+						<option value="0.6">0.6</option>
+						<option value="0.5">0.5</option>
+						<option value="0.4">0.4</option>
+						<option value="0.3">0.3</option>
+
+					</optgroup>
+
+				</select>
+			</td>
+		</tr>
+		<tr class="equals">
+			<td class="sign">=</td>
+			<td colspan="2">
+				<div class="compatibility-bar" id="compatibility-bar-works" style="display: none;">Works!</div>
+				<div class="compatibility-bar" id="compatibility-bar-broken" style="display: none;">Broken :(</div>
+				<div class="compatibility-bar" id="compatibility-bar-data" style="display: block;">Not enough data</div>
+			</td>
+		</tr>
+	</tbody></table>
+	<p>
+		<span id="compatibility-works">0 people say it works.</span><br>
+		<span id="compatibility-broken">0 people say it's broken.</span>
+	</p>
+
+		<p id="compatibility-login-link"><a href="https://wordpress.org/support/bb-login.php?re=https%3A%2F%2Fwordpress.org%2Fplugins%2Fautomatic-featured-image-posts%2F">Log in to vote.</a></p>
+
+	<table id="compatibility-table">
+
+		<tbody><tr id="compatibility-version-3_2_1">
+
+			<td class="compatibility-topic-version-0_1">100,1,1</td>
+
+			<td class="compatibility-topic-version-0_3">100,1,1</td>
+
+		</tr>
+
+		<tr id="compatibility-version-3_3">
+
+			<td class="compatibility-topic-version-0_1">100,1,1</td>
+
+			<td class="compatibility-topic-version-0_2">100,1,1</td>
+
+			<td class="compatibility-topic-version-0_3">100,1,1</td>
+
+		</tr>
+
+		<tr id="compatibility-version-3_3_1">
+
+			<td class="compatibility-topic-version-0_3">100,1,1</td>
+
+			<td class="compatibility-topic-version-0_4">100,2,2</td>
+
+			<td class="compatibility-topic-version-0_5">100,1,1</td>
+
+			<td class="compatibility-topic-version-0_6">100,1,1</td>
+
+		</tr>
+
+		<tr id="compatibility-version-3_4_2">
+
+			<td class="compatibility-topic-version-0_8">100,1,1</td>
+
+		</tr>
+
+		<tr id="compatibility-version-3_5_1">
+
+			<td class="compatibility-topic-version-0_8">0,1,0</td>
+
+		</tr>
+
+		<tr id="compatibility-version-3_7_1">
+
+			<td class="compatibility-topic-version-1_0">0,1,0</td>
+
+		</tr>
+
+		<tr id="compatibility-version-3_8_1">
+
+			<td class="compatibility-topic-version-1_0">50,2,1</td>
+
+		</tr>
+
+		<tr id="compatibility-version-3_9_1">
+
+			<td class="compatibility-topic-version-1_0">100,2,2</td>
+
+		</tr>
+
+	</tbody></table>
+</form>
+	</div>
+
+
+
+</div>
+
+</div>
+
+		</div>
+	</div>
+</div>
+
+<br class="clear">
+
+<div id="wporg-footer">
+	<div class="wrapper">
+		<ul>
+			<li><a href="https://wordpress.org/about/" title="An introduction to the WordPress project">About</a></li>
+			<li><a href="https://wordpress.org/news/" title="News and Updates">Blog</a></li>
+			<li><a href="https://wordpress.org/hosting/" title="Recommended web hosting providers">Hosting</a></li>
+			<li><a href="http://jobs.wordpress.net/" title="Find or post WordPress jobs">Jobs</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://wordpress.org/support/" title="Forums, documentation, and other resources">Support</a></li>
+			<li><a href="https://developer.wordpress.org/" title="Resources for WordPress developers">Developers</a></li>
+			<li><a href="https://make.wordpress.org/" title="Give back to WordPress through code, support, translation and more">Get Involved</a></li>
+			<li><a href="https://learn.wordpress.org/" title="Workshops and training materials">Learn</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="https://wordpress.org/showcase/" title="Some of the best WordPress sites on the Web">Showcase</a></li>
+			<li><a href="https://wordpress.org/plugins/" title="Add extra functionality to WordPress">Plugins</a></li>
+			<li><a href="https://wordpress.org/themes/" title="Make your WordPress pretty">Themes</a></li>
+			<li><a href="https://wordpress.org/ideas/" title="Share your ideas for improving WordPress">Ideas</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="http://central.wordcamp.org/" title="Find a WordPress event near you">WordCamp</a></li>
+			<li><a href="http://wordpress.tv/" title="Videos, tutorials, and WordCamp sessions">WordPress.TV</a></li>
+			<li><a href="https://buddypress.org/" title="A set of plugins to transform your WordPress into a social network">BuddyPress</a></li>
+			<li><a href="https://bbpress.org/" title="Fast, slick forums built on WordPress">bbPress</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="http://wordpress.com/?ref=wporg-footer" title="Hassle-free WordPress hosting">WordPress.com</a></li>
+			<li><a href="http://ma.tt/" title="Co-founder of WordPress, an example of what WordPress can do">Matt</a></li>
+			<li><a href="https://wordpress.org/about/privacy/" title="WordPress.org Privacy Policy">Privacy</a></li>
+			<li><a href="https://wordpress.org/about/license/" title="WordPress is open source software">License / GPLv2</a></li>
+		</ul>
+
+		<ul>
+			<li>
+				<iframe allowtransparency="true" frameborder="0" scrolling="no" src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/follow_button.html" style="width:135px; height:20px;"></iframe>
+			</li>
+			<li>
+				<iframe src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/like.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:135px; height:21px;" allowtransparency="true"></iframe>
+			</li>
+			<li>
+				<script src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/platform.js" async="" defer="" gapi_processed="true"></script>
+				<div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1431807259021" name="I0_1431807259021" src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div>
+			</li>
+		</ul>
+	</div>
+
+	<h6 class="aligncenter">Code is Poetry</h6>
+</div>
+
+
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+  (function() {
+   var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+               + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);
+  })();
+</script>
+<script type="text/javascript">_qevents.push( { qacct:"p-18-mFEk4J448M"} );</script>
+<noscript>&lt;img src="//pixel.quantserve.com/pixel/p-18-mFEk4J448M.gif" style="display: none;" border="0" height="1" width="1" alt=""/&gt;</noscript>
+<!-- 11 queries, 0.069 seconds -->
+<script type="text/javascript" src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/gprofiles.js"></script>
+
+<script type="text/javascript">
+(function($){
+$(document).ready(function() {
+	$('#footer a').click(function() {
+		if (this.href.indexOf('wordpress.org') == -1 && this.href.indexOf('http') == 0) {
+			recordOutboundLink(this, 'Outbound Links', this.href);
+			return false;
+		}
+	});
+});
+})(jQuery);
+</script>
+
+
+<iframe name="oauth2relay805557037" id="oauth2relay805557037" src="./WordPress › Automatic Featured Image Posts « WordPress Plugins_files/postmessageRelay.html" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe></body></html>

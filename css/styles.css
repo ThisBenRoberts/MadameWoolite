@@ -1,0 +1,115 @@
+.jumbotron{
+	/*background-image: url("../img/elegant-grey-illumination-background_2.jpg");
+	background-size: #%;*/
+	margin: 0;
+  	padding: 60px 0 0 0;
+
+	
+}
+
+.jumbotron p {
+      color: white;
+}
+
+.jumbotron h1 {
+      color: #B8B8B8;
+}
+
+.jumbotron .container {
+      width: 100%;
+      padding: 0px;
+}
+
+
+.anchor {
+  padding-top: 70px; 
+}
+
+
+#home{
+	/*background-image: url("../img/lights-on-concrete-wall-powerpoint-backgrounds.jpg");*/
+/*Add a background image*/
+/*	background-attachment: fixed;*/
+/*Give the background a fixed position does it not scroll when you scroll*/
+/*	background-size: cover;*/
+/*Have the background cover the entire div section*/
+/*	color: white;*/
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+/*	padding:100px;
+	padding-top: 50px;
+	height: 400px;*/
+}
+
+
+#work{
+	/*background-image: url("../img/metal-gears-powerpoint-backgrounds.jpg");*/
+/*Add a background image*/
+	/*background-attachment: fixed;*/
+/*Give the background a fixed position does it not scroll when you scroll*/
+	/*background-size: cover;*/
+/*Have the background cover the entire div section*/
+	/*color: white;*/
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	/*padding:100px;
+	padding-top: 50px;
+	height: 550px;*/
+}
+
+
+#work div div {
+	margin:0px;
+}
+
+#imggal {
+	width: 100%
+	
+}
+
+#contact{
+	background-image: url("../img/podklad-pod-rozhovor.jpg");
+/*Add a background image*/
+	background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+	background-size: cover;
+/*Have the background cover the entire div section*/
+	color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+	padding:100px;
+	padding-top: 50px;
+	height: 500px;
+}
+
+
+.form-control{
+	width: 80%;
+}
+
+form {
+	margin:20px;
+}
+
+input, label {
+	display: block;
+}
+
+#fbbtn{
+	float:right;
+}
+
+#blkquote{
+	margin:0px;
+	padding:0px;
+	width:150px; 
+}
+
+#youtubevid{
+	margin:20px;
+}
+
+.learn-more {	
+	text-align: left;
+	float: left;
+}
+
+ex: -1;
+}
